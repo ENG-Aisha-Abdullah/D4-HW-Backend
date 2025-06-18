@@ -1,4 +1,3 @@
-//  routing all files from list controllers 
 import { Router } from 'express';
 import {
   createCarMakeStore,
@@ -11,8 +10,8 @@ import {
 const router = Router();
 
 router.route('/')
-  .get(createCarMakeStore)
-  .post(findAllCarDealer);
+  .post(createCarMakeStore)
+  .get(findAllCarDealer);
 router.route('/:id')
   .get(indByIdCarMake)
   .put(updateCarMake)
