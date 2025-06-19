@@ -2,21 +2,25 @@ import express, { Express, Request, Response, NextFunction } from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
 import morgan from 'morgan';
-import logger from './utils/logger';
 import dotenv from 'dotenv';
+import logger from './utils/logger';
 import { dev, port } from './utils/helpers';
 import carDealerRoute from "./routes/carDealerRoutes";
 import carMakeRoute from "./routes/carMakeRoutes";
 import carRote from "./routes/carRotes";
 import { OK, INTERNAL_SERVER_ERROR } from './utils/http-status';
+import { connectDB } from './config/database';
 
 
 // Load environment variables
 dotenv.config();
 
+// Connect to MongoDB
+connectDB();
+
 const app: Express = express();
 
-// Middleware
+
 // Middleware
 app.use(cors());
 app.use(helmet());

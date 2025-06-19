@@ -20,3 +20,55 @@
 {"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-18T22:38:09.900Z"}
 {"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-18T22:38:15.807Z"}
 {"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T01:59:07.232Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T02:28:53.739Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T02:29:12.884Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T02:29:28.100Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T02:29:35.300Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T02:39:43.076Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T02:40:06.811Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T02:41:26.492Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T02:41:31.591Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T02:41:38.581Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T02:42:58.600Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T02:43:00.431Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T02:54:00.551Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T02:54:03.286Z"}
+{"level":"info","message":"GET / 200 29 - 1.304 ms","timestamp":"2025-06-19T02:54:24.164Z"}
+{"level":"info","message":"GET /favicon.ico 404 150 - 1.145 ms","timestamp":"2025-06-19T02:54:24.201Z"}
+{"level":"info","message":"POST /api/carDealer 400 44 - 11.612 ms","timestamp":"2025-06-19T03:11:11.771Z"}
+{"level":"info","message":"POST /api/carDealer 400 44 - 0.575 ms","timestamp":"2025-06-19T03:11:11.783Z"}
+{"level":"info","message":"POST /api/carDealer 400 44 - 0.608 ms","timestamp":"2025-06-19T03:11:11.799Z"}
+{"level":"info","message":"POST /api/carDealer 201 198 - 231.189 ms","timestamp":"2025-06-19T03:17:24.586Z"}
+{"level":"info","message":"POST /api/carDealer 201 199 - 212.752 ms","timestamp":"2025-06-19T03:18:37.479Z"}
+{"level":"info","message":"POST /api/carDealer 400 45 - 0.669 ms","timestamp":"2025-06-19T03:19:59.498Z"}
+{"level":"info","message":"POST /api/carDealer 201 199 - 232.214 ms","timestamp":"2025-06-19T03:20:23.116Z"}
+{"level":"info","message":"GET /api/carDealer 200 552 - 223.750 ms","timestamp":"2025-06-19T03:20:34.909Z"}
+{"level":"info","message":"PUT /api/carDealer 404 152 - 1.538 ms","timestamp":"2025-06-19T03:22:02.124Z"}
+{"level":"info","message":"PUT /api/carDealer?id= 404 152 - 2.178 ms","timestamp":"2025-06-19T03:23:09.168Z"}
+{"level":"info","message":"PUT /api/carDealer?id=1 404 152 - 1.138 ms","timestamp":"2025-06-19T03:23:29.862Z"}
+{"level":"info","message":"PUT /api/carDealer?id=685381442181738985f9c42d 404 152 - 1.007 ms","timestamp":"2025-06-19T03:24:00.829Z"}
+{"level":"info","message":"PUT /api/carDealer?_id=685381442181738985f9c42d 404 152 - 0.801 ms","timestamp":"2025-06-19T03:24:14.249Z"}
+{"level":"info","message":"PUT /api/carDealer?_id=685381442181738985f9c42d 404 152 - 0.793 ms","timestamp":"2025-06-19T03:24:17.855Z"}
+{"level":"info","message":"PUT /api/carDealer?:id=685381442181738985f9c42d 404 152 - 0.568 ms","timestamp":"2025-06-19T03:25:20.550Z"}
+{"level":"info","message":"PUT /api/carDealer?/:id=685381442181738985f9c42d 404 152 - 1.524 ms","timestamp":"2025-06-19T03:26:24.984Z"}
+{"level":"info","message":"PUT /api/carDealer?/:id=685381f62181738985f9c431 404 152 - 0.961 ms","timestamp":"2025-06-19T03:26:56.140Z"}
+{"level":"info","message":"PUT /api/carDealer?/:id/685381f62181738985f9c431 404 152 - 1.075 ms","timestamp":"2025-06-19T03:28:17.774Z"}
+{"level":"info","message":"PUT /api/carDealer?/:id=685381f62181738985f9c431 404 152 - 1.002 ms","timestamp":"2025-06-19T03:28:49.302Z"}
+{"level":"info","message":"PUT /api/carDealer?/:id=/685381f62181738985f9c431 404 152 - 0.925 ms","timestamp":"2025-06-19T03:29:02.718Z"}
+{"level":"info","message":"PUT /api/carDealer?:id=685381f62181738985f9c431 404 152 - 0.535 ms","timestamp":"2025-06-19T03:29:27.902Z"}
+{"level":"info","message":"PUT /api/carDealer?id=685381f62181738985f9c431 404 152 - 0.552 ms","timestamp":"2025-06-19T03:29:36.576Z"}
+{"level":"info","message":"DELETE /api/carDealer?id=1 404 155 - 0.521 ms","timestamp":"2025-06-19T03:30:55.890Z"}
+{"level":"info","message":"DELETE /api/carDealer?id=685381442181738985f9c42d 404 155 - 0.702 ms","timestamp":"2025-06-19T03:31:14.082Z"}
+{"level":"info","message":"DELETE /api/carDealer?:id=685381442181738985f9c42d 404 155 - 0.395 ms","timestamp":"2025-06-19T03:31:25.274Z"}
+{"level":"info","message":"GET /api/carMaker 200 26 - 311.980 ms","timestamp":"2025-06-19T03:35:02.129Z"}
+{"level":"info","message":"GET /api/carMaker 200 26 - 208.236 ms","timestamp":"2025-06-19T03:35:24.224Z"}
+{"level":"info","message":"POST /api/cars 404 47 - 273.996 ms","timestamp":"2025-06-19T03:41:35.089Z"}
+{"level":"info","message":"POST /api/car 404 147 - 1.082 ms","timestamp":"2025-06-19T03:41:42.484Z"}
+{"level":"info","message":"POST /api/cars 404 47 - 385.510 ms","timestamp":"2025-06-19T03:42:26.725Z"}
+{"level":"info","message":"GET /api/cars 200 26 - 238.814 ms","timestamp":"2025-06-19T03:42:38.722Z"}
+{"level":"info","message":"GET /api/cars 200 26 - 202.166 ms","timestamp":"2025-06-19T03:43:09.036Z"}
+{"level":"info","message":"GET /api/api/carMaker 404 155 - 0.971 ms","timestamp":"2025-06-19T03:43:50.211Z"}
+{"level":"info","message":"GET /api/carMaker 200 26 - 270.630 ms","timestamp":"2025-06-19T03:44:06.832Z"}
+{"level":"info","message":"GET /api/carMaker 200 26 - 203.295 ms","timestamp":"2025-06-19T03:44:18.435Z"}
+{"level":"info","message":"GET / 304 - - 1.290 ms","timestamp":"2025-06-19T03:47:42.277Z"}
+{"level":"info","message":"GET /favicon.ico 404 150 - 0.376 ms","timestamp":"2025-06-19T03:47:42.307Z"}
