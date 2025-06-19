@@ -1,11 +1,14 @@
 import { Request, Response } from 'express';
-import { carStore } from '../store/carStore';
+import car from '../models/car';
+import carDealer from '../models/carDealer';
+import carMake from '../models/carMake';
 import { OK, CREATED, BAD_REQUEST, NOT_FOUND } from '../utils/http-status';
 
-export const createCarByCarDealer = async (req: Request, res: Response): Promise<void> => {
+
+// 1- Create car
+export const createCar = async (req: Request, res: Response): Promise<void> => {
   try {
-    const { id } = req.params;
-    const { name, price, year, color, wheelsCount,carDealerId, carMakerId, } = req.body;
+    const { carDealerId, carMakerId, name, price, year, color, wheelsCount } = req.body;
     if (!name) {
       res.status(BAD_REQUEST).json({
         success: false,
@@ -13,15 +16,53 @@ export const createCarByCarDealer = async (req: Request, res: Response): Promise
       });
       return;
     }
-       const findCar = carStore.findById(id);
-    if (!findCar) {
-      res.status(NOT_FOUND).json({
+    if (!price) {
+      res.status(BAD_REQUEST).json({
         success: false,
-        error: 'Car not found',
+        error: 'price is required',
       });
       return;
     }
-    const cars = carStore.create({ carDealerId, carMakerId, name, price, year, color, wheelsCount });
+    if (!year) {
+      res.status(BAD_REQUEST).json({
+        success: false,
+        error: 'year is required',
+      });
+      return;
+    }
+    if (!color) {
+      res.status(BAD_REQUEST).json({
+        success: false,
+        error: 'color is required',
+      });
+      return;
+    }
+    if (!wheelsCount) {
+      res.status(BAD_REQUEST).json({
+        success: false,
+        error: 'wheels Count is required',
+      });
+      return;
+    }
+
+    const findCarDealer = await carDealer.findById(carDealerId);
+    if (!findCarDealer) {
+      res.status(NOT_FOUND).json({
+        success: false,
+        error: 'CarDealer not found',
+      });
+      return;
+    }
+    const findCarMaker = await carMake.findById(carMakerId);
+    if (!findCarMaker) {
+      res.status(NOT_FOUND).json({
+        success: false,
+        error: 'CarMaker not found',
+      });
+      return;
+    }
+
+    const cars = await car.create({ carDealerId, carMakerId, name, price, year, color, wheelsCount });
     res.status(CREATED).json({
       success: true,
       data: cars,
@@ -29,54 +70,22 @@ export const createCarByCarDealer = async (req: Request, res: Response): Promise
   } catch (error) {
     res.status(BAD_REQUEST).json({
       success: false,
-      error: error instanceof Error ? error.message : 'Failed to create Car',
+      error: error instanceof Error ? error.message : 'Failed to create a Car',
     });
   }
 };
-      // create by carMakerId
-// export const createCarByCarMakerId = async (req: Request, res: Response): Promise<void> => {
-//   try {
-//      const { carMakerId } = req.params;
-//     const { name, price, year, color, wheelsCount } = req.body;
-//     if (!name) {
-//       res.status(BAD_REQUEST).json({
-//         success: false,
-//         error: 'name is required',
-//       });
-//       return;
-//     }
-//     const CarMake = carMakeStore.findById(carMakerId);
-//     if (!CarMake) {
-//       res.status(NOT_FOUND).json({
-//         success: false,
-//         error: 'Car not found',
-//       });
-//       return;
-//     }
-//     const item = carStore.create({ carDealerId, carMakerId, name, price, year, color, wheelsCount });
-//     res.status(CREATED).json({
-//       success: true,
-//       data: item,
-//     });
-//   } catch (error) {
-//     res.status(BAD_REQUEST).json({
-//       success: false,
-//       error: error instanceof Error ? error.message : 'Failed to create Car',
-//     });
-//   }
-// };
 
-
-
-
-// const findAll = (): Car[] => {
-//     return Array.from(cars.values());
-// }
-
-
-export const findAllCars = async (req: Request, res: Response): Promise<void> => {
+// 2- Get all cars
+export const getAllCars = async (req: Request, res: Response): Promise<void> => {
   try {
-    const cars = carStore.findAll();
+    const cars = await car.find();
+       if (!cars) {
+      res.status(NOT_FOUND).json({
+        success: false,
+        error: 'CarMaker not found',
+      });
+      return;
+    }
     res.status(OK).json({
       success: true,
       data: cars,
@@ -84,15 +93,23 @@ export const findAllCars = async (req: Request, res: Response): Promise<void> =>
   } catch (error) {
     res.status(BAD_REQUEST).json({
       success: false,
-      error: error instanceof Error ? error.message : 'Failed to findu car',
+      error: error instanceof Error ? error.message : 'Failed to get car',
     });
   }
 };
-//
-export const findCarBycarDealerId = async (req: Request, res: Response): Promise<void> => {
+
+// 3- Get all cars by carDealerId
+export const getCarsByCarDealerId = async (req: Request, res: Response): Promise<void> => {
   try {
     const { carDealerId } = req.params;
-    const carbyDealerId = carStore.findBycarDealerId(carDealerId);
+    const carbyDealerId = await car.findById(carDealerId);
+         if (!carbyDealerId) {
+      res.status(NOT_FOUND).json({
+        success: false,
+        error: 'CarMaker not found',
+      });
+      return;
+    }
     res.status(OK).json({
       success: true,
       data: carbyDealerId,
@@ -104,10 +121,19 @@ export const findCarBycarDealerId = async (req: Request, res: Response): Promise
     });
   }
 };
-export const findBycarMakerId = async (req: Request, res: Response): Promise<void> => {
+
+// 4- Get all cars by carMakerId
+export const getCarsByCarMakerId = async (req: Request, res: Response): Promise<void> => {
   try {
     const { carDealeMakerId } = req.params;
-    const carbyDealerId = carStore.findBycarMakerId(carDealeMakerId);
+    const carbyDealerId = await car.findById(carDealeMakerId);
+             if (!carbyDealerId) {
+      res.status(NOT_FOUND).json({
+        success: false,
+        error: 'CarMaker not found',
+      });
+      return;
+    }
     res.status(OK).json({
       success: true,
       data: carbyDealerId,
@@ -119,10 +145,19 @@ export const findBycarMakerId = async (req: Request, res: Response): Promise<voi
     });
   }
 };
-export const findCarById = async (req: Request, res: Response): Promise<void> => {
+
+// 5- Get car by id
+export const getCarById = async (req: Request, res: Response): Promise<void> => {
   try {
     const { carDealeById } = req.params;
-    const carbyDealerId = carStore.findById(carDealeById);
+    const carbyDealerId = await car.findById(carDealeById);
+                 if (!carbyDealerId) {
+      res.status(NOT_FOUND).json({
+        success: false,
+        error: 'CarMaker not found',
+      });
+      return;
+    }
     res.status(OK).json({
       success: true,
       data: carbyDealerId,
@@ -134,10 +169,12 @@ export const findCarById = async (req: Request, res: Response): Promise<void> =>
     });
   }
 };
+
+// 6- Get car by id
 export const updateCar = async (req: Request, res: Response): Promise<void> => {
   try {
     const { id } = req.params;
-    const cars = carStore.findById(id);
+    const cars = await car.findById(id);
     if (!cars) {
       res.status(NOT_FOUND).json({
         success: false,
@@ -145,9 +182,15 @@ export const updateCar = async (req: Request, res: Response): Promise<void> => {
       });
       return;
     }
+    const updatescar = await car.findByIdAndUpdate(
+       req.params.id,
+      { $set: req.body },
+      {
+        new: true,
+        runValidators: true
+      }
+    );
 
-
-    const updatescar = carStore.update(id, req.body);
     res.status(OK).json({
       success: true,
       data: updatescar,
@@ -160,10 +203,11 @@ export const updateCar = async (req: Request, res: Response): Promise<void> => {
   }
 };
 
+// 7-  Delete car by id
 export const deleteItem = async (req: Request, res: Response): Promise<void> => {
   try {
-    const {id } = req.params;
-    const cars = carStore.findById(id);
+    const { id } = req.params;
+    const cars = await car.findById(id);
     if (!cars) {
       res.status(NOT_FOUND).json({
         success: false,
@@ -171,7 +215,6 @@ export const deleteItem = async (req: Request, res: Response): Promise<void> => 
       });
       return;
     }
-    carStore.deleteCar(id);
     res.status(OK).json({
       success: true,
       data: {},
@@ -182,5 +225,5 @@ export const deleteItem = async (req: Request, res: Response): Promise<void> => 
       error: error instanceof Error ? error.message : 'Failed to delete car',
     });
   }
-}; 
+};
 

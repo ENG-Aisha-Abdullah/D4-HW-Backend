@@ -1,8 +1,8 @@
 import { Router } from 'express';
 import {
-  createcarDealer,
-  findAllCarDealer,
-  findByIdCarDealer,
+  createCarDealer, //>> no params
+  getAllCarDealer,  //>> no params
+  getCarDealerById,
   updateCarDealer,
   deleteCarDealer,
 } from '../controllers/carDealerController';
@@ -10,10 +10,10 @@ import {
 const router = Router();
 
 router.route('/')
-  .post(createcarDealer)
-  .get(findAllCarDealer);
+  .post(createCarDealer)
+  .get(getAllCarDealer);
 router.route('/:id')
-  .get(findByIdCarDealer)
+  .get(getCarDealerById)
   .put(updateCarDealer)
   .delete(deleteCarDealer);
 

@@ -1,9 +1,8 @@
 import { Request, Response } from 'express';
-import { carMakeStore } from '../store/carMakeStore';
+import carMake from '../models/carMake';
 import { OK, CREATED, BAD_REQUEST, NOT_FOUND } from '../utils/http-status';
-import { carStore } from '../store/carStore';
 
-export const createCarMakeStore = async (req: Request, res: Response): Promise<void> => {
+export const createCarMaker = async (req: Request, res: Response): Promise<void> => {
   try {
     const { country, brandName } = req.body;
 
@@ -14,8 +13,15 @@ export const createCarMakeStore = async (req: Request, res: Response): Promise<v
       });
       return;
     }
+    if (!brandName) {
+      res.status(BAD_REQUEST).json({
+        success: false,
+        error: 'brand Name is required',
+      });
+      return;
+    }
 
-    const CarMake = carMakeStore.create({ country, brandName, });
+    const CarMake = await carMake.create({ country, brandName });
     res.status(CREATED).json({
       success: true,
       data: CarMake,
@@ -28,9 +34,9 @@ export const createCarMakeStore = async (req: Request, res: Response): Promise<v
   }
 };
 
-export const findAllCarDealer = async (_req: Request, res: Response): Promise<void> => {
+export const getAllCarDealer = async (_req: Request, res: Response): Promise<void> => {
   try {
-    const carMakes = carMakeStore.findAll();
+    const carMakes = await carMake.find();
     res.status(OK).json({
       success: true,
       data: carMakes,
@@ -38,14 +44,14 @@ export const findAllCarDealer = async (_req: Request, res: Response): Promise<vo
   } catch (error) {
     res.status(BAD_REQUEST).json({
       success: false,
-      error: error instanceof Error ? error.message : 'Failed to fetch Car Maker',
+      error: error instanceof Error ? error.message : 'Failed to fetch ALL Car Maker',
     });
   }
 };
 
-export const indByIdCarMake = async (req: Request, res: Response): Promise<void> => {
+export const getCarMakeById = async (req: Request, res: Response): Promise<void> => {
   try {
-    const CarMake = carMakeStore.findById(req.params.id);
+    const CarMake = await carMake.findById(req.params.id);
     if (!CarMake) {
       res.status(NOT_FOUND).json({
         success: false,
@@ -53,25 +59,28 @@ export const indByIdCarMake = async (req: Request, res: Response): Promise<void>
       });
       return;
     }
-
-    const cars = carStore.findBycarMakerId(CarMake.id);
     res.status(OK).json({
       success: true,
-      data: {
-        ...CarMake,
-        cars,
-      },
+      data: CarMake,
     });
+
   } catch (error) {
     res.status(BAD_REQUEST).json({
       success: false,
-      error: error instanceof Error ? error.message : 'Failed to fetch Car Maker',
+      error: error instanceof Error ? error.message : 'Failed to fetch Car Maker BY ID',
     });
   }
 };
 export const updateCarMake = async (req: Request, res: Response): Promise<void> => {
   try {
-    const CarMake = carMakeStore.update(req.params.id, req.body);
+    const CarMake = await carMake.findByIdAndUpdate(
+      req.params.id,
+      { $set: req.body },
+      {
+        new: true,
+        runValidators: true
+      }
+    );
     if (!CarMake) {
       res.status(NOT_FOUND).json({
         success: false,
@@ -93,7 +102,7 @@ export const updateCarMake = async (req: Request, res: Response): Promise<void> 
 
 export const deleteCarDealer = async (req: Request, res: Response): Promise<void> => {
   try {
-    const deleted = carMakeStore.deleteCarMake(req.params.id);
+    const deleted = await carMake.findByIdAndDelete(req.params.id);
     if (!deleted) {
       res.status(NOT_FOUND).json({
         success: false,
