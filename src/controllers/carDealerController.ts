@@ -121,7 +121,7 @@ export const deleteCarDealer = async (req: Request, res: Response): Promise<void
 
     res.status(OK).json({
       success: true,
-      data: {},
+      data: deleted,
     });
   } catch (error) {
     res.status(BAD_REQUEST).json({

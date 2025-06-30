@@ -15,12 +15,12 @@ const CarSchema = new Schema<Car>(
     {
         carDealerId: {
             type: Schema.Types.ObjectId,
-            ref: "carMake",
+            ref: "carDealer",
             required: true
         },
         carMakerId: {
             type: Schema.Types.ObjectId,
-            ref: "carDealer",
+            ref: "carMake",
             required: true
         },
         name: {

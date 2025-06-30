@@ -72,3 +72,479 @@
 {"level":"info","message":"GET /api/carMaker 200 26 - 203.295 ms","timestamp":"2025-06-19T03:44:18.435Z"}
 {"level":"info","message":"GET / 304 - - 1.290 ms","timestamp":"2025-06-19T03:47:42.277Z"}
 {"level":"info","message":"GET /favicon.ico 404 150 - 0.376 ms","timestamp":"2025-06-19T03:47:42.307Z"}
+{"level":"info","message":"GET /api/cars 200 26 - 213.189 ms","timestamp":"2025-06-19T03:48:57.571Z"}
+{"level":"info","message":"GET /api/cars 200 26 - 198.212 ms","timestamp":"2025-06-19T03:49:04.480Z"}
+{"level":"info","message":"PUT /api/cars/:id/ 400 117 - 3.203 ms","timestamp":"2025-06-19T03:49:07.791Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T08:38:52.687Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T08:38:55.110Z"}
+{"level":"info","message":"GET / 200 29 - 1.793 ms","timestamp":"2025-06-19T08:38:59.700Z"}
+{"level":"info","message":"GET /favicon.ico 404 150 - 0.840 ms","timestamp":"2025-06-19T08:38:59.718Z"}
+{"level":"info","message":"GET / 304 - - 1.376 ms","timestamp":"2025-06-19T08:39:00.310Z"}
+{"level":"info","message":"GET /favicon.ico 404 150 - 0.924 ms","timestamp":"2025-06-19T08:39:00.344Z"}
+{"level":"info","message":"GET / 304 - - 0.890 ms","timestamp":"2025-06-19T08:39:00.520Z"}
+{"level":"info","message":"GET /favicon.ico 404 150 - 0.508 ms","timestamp":"2025-06-19T08:39:00.535Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T09:01:57.899Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T09:02:00.371Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T09:03:28.442Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T09:03:31.379Z"}
+{"level":"info","message":"GET / 304 - - 2.100 ms","timestamp":"2025-06-19T09:05:15.822Z"}
+{"level":"info","message":"GET /favicon.ico 404 150 - 2.547 ms","timestamp":"2025-06-19T09:05:15.854Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T09:39:52.479Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T09:39:55.193Z"}
+{"level":"info","message":"GET / 200 29 - 1.765 ms","timestamp":"2025-06-19T09:39:59.757Z"}
+{"level":"info","message":"GET /favicon.ico 404 150 - 0.808 ms","timestamp":"2025-06-19T09:39:59.814Z"}
+{"level":"info","message":"POST /api/carDealer 201 191 - 334.165 ms","timestamp":"2025-06-19T09:43:58.706Z"}
+{"level":"info","message":"GET /api/carDealer 200 720 - 447.595 ms","timestamp":"2025-06-19T09:45:00.764Z"}
+{"level":"info","message":"PUT /api/carDealer 404 152 - 0.899 ms","timestamp":"2025-06-19T09:45:29.279Z"}
+{"level":"info","message":"PUT /api/carDealer/685381442181738985f9c42d 200 198 - 389.026 ms","timestamp":"2025-06-19T10:18:18.672Z"}
+{"level":"info","message":"PUT /api/carDealer/685381442181738985f9c42d 200 198 - 242.004 ms","timestamp":"2025-06-19T10:19:35.993Z"}
+{"level":"info","message":"PUT /api/carDealer/685381442181738985f9c42d 200 198 - 524.758 ms","timestamp":"2025-06-19T10:19:45.506Z"}
+{"level":"info","message":"GET / 304 - - 1.309 ms","timestamp":"2025-06-19T11:15:21.484Z"}
+{"level":"info","message":"PUT /api//api/cars/685381442181738985f9c42d 404 177 - 1.289 ms","timestamp":"2025-06-19T11:31:00.631Z"}
+{"level":"info","message":"PUT /api/cars/685381442181738985f9c42d 404 41 - 2142.456 ms","timestamp":"2025-06-19T11:31:45.864Z"}
+{"level":"error","message":"Error:","timestamp":"2025-06-19T11:33:12.603Z"}
+{"level":"info","message":"POST /api/carDealer 500 51 - 5.398 ms","timestamp":"2025-06-19T11:33:12.604Z"}
+{"level":"info","message":"POST /api/carDealer 201 191 - 217.935 ms","timestamp":"2025-06-19T11:33:17.711Z"}
+{"level":"info","message":"POST /api/carDealer 201 194 - 199.237 ms","timestamp":"2025-06-19T11:33:28.168Z"}
+{"level":"info","message":"GET /api/carDealer 200 1059 - 435.176 ms","timestamp":"2025-06-19T11:33:39.958Z"}
+{"level":"info","message":"PUT /api/carDealer/685381442181738985f9c42d 200 198 - 286.550 ms","timestamp":"2025-06-19T11:39:11.931Z"}
+{"level":"info","message":"GET /api/carDealer 200 1059 - 187.999 ms","timestamp":"2025-06-19T11:39:21.749Z"}
+{"level":"info","message":"GET /api/carDealer 200 1059 - 257.716 ms","timestamp":"2025-06-19T11:39:45.212Z"}
+{"level":"info","message":"POST /api/carMaker 201 180 - 208.933 ms","timestamp":"2025-06-19T11:49:49.530Z"}
+{"level":"info","message":"POST /api/cars 400 127 - 2.694 ms","timestamp":"2025-06-19T11:49:54.717Z"}
+{"level":"info","message":"POST /api/cars 400 127 - 1.843 ms","timestamp":"2025-06-19T11:51:38.500Z"}
+{"level":"info","message":"POST /api/carMaker 201 180 - 456.060 ms","timestamp":"2025-06-19T11:51:48.352Z"}
+{"level":"info","message":"GET /api/carMaker 200 339 - 380.512 ms","timestamp":"2025-06-19T11:51:53.410Z"}
+{"level":"info","message":"GET /api/carDealer 200 1059 - 302.829 ms","timestamp":"2025-06-19T11:52:06.057Z"}
+{"level":"info","message":"POST /api/cars 400 127 - 2.568 ms","timestamp":"2025-06-19T11:52:39.251Z"}
+{"level":"info","message":"GET /api/cars 200 26 - 228.264 ms","timestamp":"2025-06-19T11:53:15.165Z"}
+{"level":"info","message":"POST /api/cars 400 120 - 2.491 ms","timestamp":"2025-06-19T11:54:03.846Z"}
+{"level":"info","message":"POST /api/cars 404 47 - 437.525 ms","timestamp":"2025-06-19T11:54:15.285Z"}
+{"level":"info","message":"GET /api/carMaker 200 339 - 228.761 ms","timestamp":"2025-06-19T11:54:51.399Z"}
+{"level":"info","message":"POST /api/cars 201 300 - 879.059 ms","timestamp":"2025-06-19T11:55:10.190Z"}
+{"level":"info","message":"GET /api/cars 200 302 - 431.913 ms","timestamp":"2025-06-19T11:55:24.310Z"}
+{"level":"info","message":"GET /api/cars 200 302 - 242.551 ms","timestamp":"2025-06-19T11:57:01.484Z"}
+{"level":"info","message":"DELETE /api/cars/6853fa9ddc416f555ba5d4d4 200 26 - 200.158 ms","timestamp":"2025-06-19T12:00:12.127Z"}
+{"level":"info","message":"GET /api/cars 200 302 - 190.278 ms","timestamp":"2025-06-19T12:00:20.821Z"}
+{"level":"info","message":"DELETE /api/cars/6853fa9ddc416f555ba5d4d4 200 26 - 448.856 ms","timestamp":"2025-06-19T12:00:54.756Z"}
+{"level":"info","message":"GET /api/cars 200 302 - 422.236 ms","timestamp":"2025-06-19T12:00:58.574Z"}
+{"level":"info","message":"POST /api/cars/ 400 44 - 0.891 ms","timestamp":"2025-06-19T12:01:47.339Z"}
+{"level":"info","message":"DELETE /api/cars/6853fa9ddc416f555ba5d4d4 200 26 - 184.687 ms","timestamp":"2025-06-19T12:02:01.944Z"}
+{"level":"info","message":"GET /api/cars/ 200 302 - 340.763 ms","timestamp":"2025-06-19T12:02:19.552Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T12:02:59.998Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T12:03:02.782Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T12:05:57.763Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T12:06:01.149Z"}
+{"level":"info","message":"DELETE /api/cars/6853fa9ddc416f555ba5d4d4 200 300 - 402.453 ms","timestamp":"2025-06-19T12:06:07.196Z"}
+{"level":"info","message":"DELETE /api/cars 404 150 - 3.538 ms","timestamp":"2025-06-19T12:06:11.559Z"}
+{"level":"info","message":"DELETE /api/cars/6853fa9ddc416f555ba5d4d4 200 300 - 389.503 ms","timestamp":"2025-06-19T12:06:16.920Z"}
+{"level":"info","message":"GET /api/cars/ 200 302 - 308.978 ms","timestamp":"2025-06-19T12:06:23.072Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T12:07:03.036Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T12:07:05.774Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T12:07:08.610Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T12:07:31.077Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T12:07:34.138Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T12:07:55.919Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T12:07:59.037Z"}
+{"level":"info","message":"DELETE /api/cars/6853fa9ddc416f555ba5d4d4 200 300 - 669.812 ms","timestamp":"2025-06-19T12:08:00.653Z"}
+{"level":"info","message":"DELETE /api/cars/6853fa9ddc416f555ba5d4d4 404 42 - 206.625 ms","timestamp":"2025-06-19T12:08:08.021Z"}
+{"level":"error","message":"Error:","timestamp":"2025-06-19T12:08:41.592Z"}
+{"level":"info","message":"DELETE /api/cars/6853fa9ddc416f555ba5d4d4 500 51 - 5.390 ms","timestamp":"2025-06-19T12:08:41.593Z"}
+{"level":"info","message":"GET /api/cars/ 200 26 - 202.013 ms","timestamp":"2025-06-19T12:08:47.614Z"}
+{"level":"info","message":"GET /api/carDealer 200 1059 - 453.909 ms","timestamp":"2025-06-19T12:10:33.026Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T12:11:13.175Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T12:11:16.030Z"}
+{"level":"info","message":"DELETE /api/carDealer 404 155 - 7.858 ms","timestamp":"2025-06-19T12:12:55.987Z"}
+{"level":"info","message":"DELETE /api/carDealer/685381442181738985f9c42d 200 198 - 288.823 ms","timestamp":"2025-06-19T12:13:05.266Z"}
+{"level":"info","message":"DELETE /api/carDealer/685381442181738985f9c42d 404 48 - 406.432 ms","timestamp":"2025-06-19T12:13:10.315Z"}
+{"level":"info","message":"DELETE /api/carDealer/685381442181738985f9c42d 404 48 - 227.717 ms","timestamp":"2025-06-19T12:13:13.459Z"}
+{"level":"info","message":"DELETE /api/carDealer/ 404 156 - 1.255 ms","timestamp":"2025-06-19T12:13:23.093Z"}
+{"level":"info","message":"DELETE /api/carDealer/685381442181738985f9c42d 404 48 - 212.903 ms","timestamp":"2025-06-19T12:13:30.014Z"}
+{"level":"info","message":"GET /api/carDealer 200 884 - 313.191 ms","timestamp":"2025-06-19T12:13:47.140Z"}
+{"level":"info","message":"DELETE /api/carDealer/6853818d2181738985f9c42f 200 199 - 205.607 ms","timestamp":"2025-06-19T12:13:55.094Z"}
+{"level":"info","message":"DELETE /api/carDealer/6853818d2181738985f9c42f 404 48 - 213.940 ms","timestamp":"2025-06-19T12:13:57.854Z"}
+{"level":"info","message":"DELETE /api/carDealer/6853818d2181738985f9c42f 404 48 - 261.250 ms","timestamp":"2025-06-19T12:14:08.231Z"}
+{"level":"info","message":"GET /api/carDealer 200 708 - 224.710 ms","timestamp":"2025-06-19T12:14:13.512Z"}
+{"level":"info","message":"DELETE /api/carDealer/685381f62181738985f9c431 200 199 - 205.007 ms","timestamp":"2025-06-19T12:14:21.968Z"}
+{"level":"info","message":"GET /api/carDealer 200 532 - 436.460 ms","timestamp":"2025-06-19T12:14:28.302Z"}
+{"level":"info","message":"DELETE /api/carDealer/6853dbdedc416f555ba5d4ba 200 191 - 408.994 ms","timestamp":"2025-06-19T12:14:36.289Z"}
+{"level":"info","message":"GET /api/carDealer 200 364 - 204.821 ms","timestamp":"2025-06-19T12:14:42.801Z"}
+{"level":"info","message":"DELETE /api/carDealer/6853f57ddc416f555ba5d4c1 200 191 - 414.195 ms","timestamp":"2025-06-19T12:14:51.750Z"}
+{"level":"info","message":"GET /api/carDealer 200 196 - 328.290 ms","timestamp":"2025-06-19T12:14:56.459Z"}
+{"level":"info","message":"DELETE /api/carDealer/6853f57ddc416f555ba5d4c1 404 48 - 466.860 ms","timestamp":"2025-06-19T12:15:57.491Z"}
+{"level":"info","message":"GET /api/carDealer 200 196 - 278.553 ms","timestamp":"2025-06-19T12:16:00.640Z"}
+{"level":"info","message":"DELETE /api/carDealer/6853f587dc416f555ba5d4c3 200 194 - 325.896 ms","timestamp":"2025-06-19T12:16:11.109Z"}
+{"level":"info","message":"GET /api/carDealer 200 26 - 365.792 ms","timestamp":"2025-06-19T12:16:15.820Z"}
+{"level":"info","message":"GET /api/carDealer 200 26 - 396.760 ms","timestamp":"2025-06-19T12:19:47.590Z"}
+{"level":"error","message":"Error:","timestamp":"2025-06-19T12:20:14.987Z"}
+{"level":"info","message":"DELETE /api/carMaker 500 51 - 6.101 ms","timestamp":"2025-06-19T12:20:14.988Z"}
+{"level":"error","message":"Error:","timestamp":"2025-06-19T12:20:23.007Z"}
+{"level":"info","message":"DELETE /api/carMaker/6853f95ddc416f555ba5d4c9 500 51 - 1.862 ms","timestamp":"2025-06-19T12:20:23.008Z"}
+{"level":"info","message":"DELETE /api/carMaker/6853f95ddc416f555ba5d4c9 200 26 - 222.111 ms","timestamp":"2025-06-19T12:20:29.962Z"}
+{"level":"info","message":"GET /api/carMaker 200 182 - 415.894 ms","timestamp":"2025-06-19T12:20:36.630Z"}
+{"level":"info","message":"DELETE /api/carMaker/6853f9d3dc416f555ba5d4cb 200 26 - 438.348 ms","timestamp":"2025-06-19T12:20:54.858Z"}
+{"level":"info","message":"GET /api/carMaker 200 26 - 315.959 ms","timestamp":"2025-06-19T12:21:04.696Z"}
+{"level":"info","message":"POST /api/carMaker 201 180 - 276.501 ms","timestamp":"2025-06-19T12:21:23.123Z"}
+{"level":"info","message":"GET /api/carMaker 200 182 - 322.112 ms","timestamp":"2025-06-19T12:21:26.296Z"}
+{"level":"info","message":"PUT /api/carMaker/685400c2d3ece2de7ab191ed 200 180 - 277.105 ms","timestamp":"2025-06-19T12:22:14.534Z"}
+{"level":"info","message":"GET /api/carMaker 200 182 - 450.032 ms","timestamp":"2025-06-19T12:22:22.130Z"}
+{"level":"error","message":"Error:","timestamp":"2025-06-19T12:22:35.855Z"}
+{"level":"info","message":"POST /api/carDealer 500 51 - 0.507 ms","timestamp":"2025-06-19T12:22:35.856Z"}
+{"level":"info","message":"POST /api/carDealer 400 44 - 1.502 ms","timestamp":"2025-06-19T12:22:40.787Z"}
+{"level":"error","message":"Error:","timestamp":"2025-06-19T12:23:12.408Z"}
+{"level":"info","message":"POST /api/carDealer 500 51 - 1.741 ms","timestamp":"2025-06-19T12:23:12.408Z"}
+{"level":"error","message":"Error:","timestamp":"2025-06-19T12:23:17.365Z"}
+{"level":"info","message":"POST /api/carDealer 500 51 - 2.160 ms","timestamp":"2025-06-19T12:23:17.367Z"}
+{"level":"info","message":"POST /api/carDealer 400 45 - 1.115 ms","timestamp":"2025-06-19T12:23:27.544Z"}
+{"level":"info","message":"POST /api/carDealer 400 44 - 1.159 ms","timestamp":"2025-06-19T12:23:55.657Z"}
+{"level":"info","message":"POST /api/carDealer 201 228 - 261.683 ms","timestamp":"2025-06-19T12:24:31.332Z"}
+{"level":"info","message":"GET /api/carDealer 200 230 - 295.849 ms","timestamp":"2025-06-19T12:25:23.043Z"}
+{"level":"info","message":"PUT /api/carDealer/6853f587dc416f555ba5d4c3 404 48 - 362.739 ms","timestamp":"2025-06-19T12:26:03.180Z"}
+{"level":"info","message":"PUT /api/carDealer/6854017fd3ece2de7ab191f2 200 234 - 229.159 ms","timestamp":"2025-06-19T12:26:19.614Z"}
+{"level":"info","message":"PUT /api/carDealer/6854017fd3ece2de7ab191f2 200 234 - 306.898 ms","timestamp":"2025-06-19T12:26:28.474Z"}
+{"level":"info","message":"PUT /api/carDealer/44 400 122 - 2.566 ms","timestamp":"2025-06-19T12:26:38.591Z"}
+{"level":"info","message":"PUT /api/carDealer/6854017fd3ece2de7ab191f2 200 241 - 350.474 ms","timestamp":"2025-06-19T12:26:47.004Z"}
+{"level":"info","message":"GET /api/carDealer 200 243 - 256.606 ms","timestamp":"2025-06-19T12:26:56.124Z"}
+{"level":"info","message":"GET /api/carMaker 200 182 - 375.828 ms","timestamp":"2025-06-19T12:26:59.195Z"}
+{"level":"info","message":"GET /api/cars/ 200 26 - 304.937 ms","timestamp":"2025-06-19T12:27:02.980Z"}
+{"level":"info","message":"POST /api/cars 201 300 - 1010.326 ms","timestamp":"2025-06-19T12:28:28.894Z"}
+{"level":"info","message":"GET /api/cars/ 200 302 - 252.459 ms","timestamp":"2025-06-19T12:28:37.188Z"}
+{"level":"info","message":"GET /api/carDealer 200 243 - 217.735 ms","timestamp":"2025-06-19T12:28:49.223Z"}
+{"level":"info","message":"GET /api/carDealer 200 243 - 331.026 ms","timestamp":"2025-06-19T12:28:51.001Z"}
+{"level":"info","message":"GET /api/cars/?=6854017fd3ece2de7ab191f2 200 302 - 351.552 ms","timestamp":"2025-06-19T12:31:17.498Z"}
+{"level":"info","message":"GET /api/cars/6854017fd3ece2de7ab191f2?=6854017fd3ece2de7ab191f2 404 46 - 290.604 ms","timestamp":"2025-06-19T12:31:35.113Z"}
+{"level":"info","message":"GET /api/cars/6854017fd3ece2de7ab191f2 404 46 - 339.167 ms","timestamp":"2025-06-19T12:31:39.108Z"}
+{"level":"info","message":"GET /api/cars 200 302 - 303.362 ms","timestamp":"2025-06-19T12:31:53.239Z"}
+{"level":"info","message":"GET /api/carDealer/6854017fd3ece2de7ab191f2 200 241 - 295.378 ms","timestamp":"2025-06-19T12:33:12.084Z"}
+{"level":"info","message":"GET /api/carDealer/6854017fd3ece2de7ab191f2 200 241 - 424.609 ms","timestamp":"2025-06-19T12:33:24.577Z"}
+{"level":"info","message":"GET /api/carDealer/carDealeMakerId 400 135 - 2.375 ms","timestamp":"2025-06-19T12:36:48.217Z"}
+{"level":"info","message":"GET /api/cars/carDealeMakerId 404 46 - 413.992 ms","timestamp":"2025-06-19T12:36:55.621Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T12:37:40.730Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T12:37:44.060Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T12:38:06.269Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T12:38:09.251Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T12:38:15.486Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T12:38:21.582Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T12:38:22.955Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T12:38:26.139Z"}
+{"level":"info","message":"GET /api/cars/carMakerId 404 46 - 416.442 ms","timestamp":"2025-06-19T12:38:39.153Z"}
+{"level":"info","message":"GET /api/cars/685400c2d3ece2de7ab191ed 404 46 - 331.900 ms","timestamp":"2025-06-19T12:38:51.946Z"}
+{"level":"info","message":"GET /api/cars/685400c2d3ece2de7ab191ed/ 404 46 - 317.456 ms","timestamp":"2025-06-19T12:39:08.843Z"}
+{"level":"info","message":"GET /api/cars/carMakerId/ 404 46 - 513.788 ms","timestamp":"2025-06-19T12:39:14.680Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T12:39:48.193Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T12:39:50.157Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T12:39:54.513Z"}
+{"level":"info","message":"GET /api/cars/carMakerId/ 404 46 - 756.620 ms","timestamp":"2025-06-19T12:39:55.338Z"}
+{"level":"info","message":"GET /api/cars/carMakerId 404 46 - 409.522 ms","timestamp":"2025-06-19T12:40:03.222Z"}
+{"level":"info","message":"GET /api/cars/carMakerId?carDealeMakerId=685400c2d3ece2de7ab191ed 404 46 - 294.338 ms","timestamp":"2025-06-19T12:40:29.431Z"}
+{"level":"info","message":"GET /api/cars/carMaker/664a12f1f9b56a2f74f9d7e9?carDealeMakerId=685400c2d3ece2de7ab191ed 404 181 - 2.294 ms","timestamp":"2025-06-19T12:42:07.508Z"}
+{"level":"info","message":"GET /api/cars/carMaker/685400c2d3ece2de7ab191ed?carDealeMakerId=685400c2d3ece2de7ab191ed 404 181 - 2.583 ms","timestamp":"2025-06-19T12:42:23.913Z"}
+{"level":"info","message":"GET /api/cars/685400c2d3ece2de7ab191ed?carDealeMakerId=685400c2d3ece2de7ab191ed 404 46 - 233.504 ms","timestamp":"2025-06-19T12:42:27.810Z"}
+{"level":"info","message":"GET /api/cars/685400c2d3ece2de7ab191ed 404 46 - 395.748 ms","timestamp":"2025-06-19T12:42:38.043Z"}
+{"level":"info","message":"GET /api/carMaker 200 182 - 475.890 ms","timestamp":"2025-06-19T12:42:44.499Z"}
+{"level":"info","message":"GET /api/cars 200 302 - 407.206 ms","timestamp":"2025-06-19T12:42:57.554Z"}
+{"level":"info","message":"GET /api/cars/685400c2d3ece2de7ab191ed 404 46 - 321.588 ms","timestamp":"2025-06-19T12:43:22.388Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T12:43:56.494Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T12:43:59.097Z"}
+{"level":"info","message":"GET /api/cars/685400c2d3ece2de7ab191ed 404 46 - 995.241 ms","timestamp":"2025-06-19T12:43:59.297Z"}
+{"level":"info","message":"GET /api/cars/685400c2d3ece2de7ab191ed 404 46 - 247.424 ms","timestamp":"2025-06-19T12:44:02.122Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T12:45:25.942Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T12:45:28.826Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T12:48:48.190Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T12:48:50.036Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T12:48:52.579Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T12:48:55.595Z"}
+{"level":"info","message":"GET /api/cars/685400c2d3ece2de7ab191ed 404 46 - 214.850 ms","timestamp":"2025-06-19T12:48:59.535Z"}
+{"level":"info","message":"GET /api/carDealer/carDealeMakerId 400 135 - 4.332 ms","timestamp":"2025-06-19T12:49:04.397Z"}
+{"level":"info","message":"GET /api/carDealer/carDealeMakerId 400 135 - 2.027 ms","timestamp":"2025-06-19T12:49:05.312Z"}
+{"level":"info","message":"GET /api/carDealer/ 200 243 - 427.736 ms","timestamp":"2025-06-19T12:49:08.668Z"}
+{"level":"info","message":"GET /api/cars/6854017fd3ece2de7ab191f2 404 46 - 247.245 ms","timestamp":"2025-06-19T12:49:17.368Z"}
+{"level":"info","message":"GET /api/cars/6854017fd3ece2de7ab191f2 404 46 - 413.982 ms","timestamp":"2025-06-19T12:49:29.246Z"}
+{"level":"info","message":"GET /api/cars/6854017fd3ece2de7ab191f2?carDealeMakerId=685400c2d3ece2de7ab191ed 404 46 - 405.003 ms","timestamp":"2025-06-19T12:49:42.019Z"}
+{"level":"info","message":"GET /api/cars?carDealeMakerId=685400c2d3ece2de7ab191ed 200 302 - 346.525 ms","timestamp":"2025-06-19T12:49:46.654Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T12:50:00.030Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T12:50:03.247Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T12:50:06.114Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T12:50:09.495Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T12:50:13.361Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T12:50:17.531Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T12:50:20.753Z"}
+{"level":"info","message":"GET /api/cars?carDealeMakerId=685400c2d3ece2de7ab191ed 200 302 - 228.195 ms","timestamp":"2025-06-19T12:50:35.850Z"}
+{"level":"info","message":"GET /api/cars?carDealeMakerId=685400c2d3ece2de7ab191ed 200 302 - 401.164 ms","timestamp":"2025-06-19T12:54:50.677Z"}
+{"level":"info","message":"GET /api/cars?carDealeMakerId=685400c2d3ece2de7ab191ed 200 302 - 320.017 ms","timestamp":"2025-06-19T12:56:03.070Z"}
+{"level":"info","message":"GET /api/cars?carDealeMakerId=6854017fd3ece2de7ab191f2 200 302 - 215.921 ms","timestamp":"2025-06-19T12:56:11.738Z"}
+{"level":"info","message":"GET /api/cars 200 302 - 409.719 ms","timestamp":"2025-06-19T12:59:26.124Z"}
+{"level":"info","message":"GET /api/cars?id+=6854026cd3ece2de7ab191fe 200 302 - 209.787 ms","timestamp":"2025-06-19T13:01:49.762Z"}
+{"level":"info","message":"GET /api/cars/?carDealeMakerId=6854017fd3ece2de7ab191f2 200 302 - 341.519 ms","timestamp":"2025-06-19T13:02:06.464Z"}
+{"level":"info","message":"GET /api/cars/?carDealeMakerId= 200 302 - 278.533 ms","timestamp":"2025-06-19T13:02:41.073Z"}
+{"level":"info","message":"GET /api/cars/6854026cd3ece2de7ab191fe 404 46 - 244.025 ms","timestamp":"2025-06-19T13:03:33.048Z"}
+{"level":"info","message":"GET /api/cars/6854026cd3ece2de7ab191fe 404 46 - 374.912 ms","timestamp":"2025-06-19T13:03:38.518Z"}
+{"level":"info","message":"GET /api/cars/6854026cd3ece2de7ab191fe 404 46 - 228.271 ms","timestamp":"2025-06-19T13:03:43.456Z"}
+{"level":"info","message":"GET /api/cars/6854026cd3ece2de7ab191fe 404 46 - 251.701 ms","timestamp":"2025-06-19T13:03:45.074Z"}
+{"level":"info","message":"GET /api/cars/6854026cd3ece2de7ab191fe 404 46 - 222.131 ms","timestamp":"2025-06-19T13:04:08.170Z"}
+{"level":"info","message":"GET /api/carDealer/ 200 243 - 237.839 ms","timestamp":"2025-06-19T13:04:46.112Z"}
+{"level":"info","message":"GET /api/cars/: 404 46 - 397.171 ms","timestamp":"2025-06-19T13:04:53.580Z"}
+{"level":"info","message":"GET /api/cars/6854017fd3ece2de7ab191f2 404 46 - 457.731 ms","timestamp":"2025-06-19T13:04:59.207Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:08:44.172Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:09:17.323Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T13:09:20.119Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:09:28.943Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T13:09:32.100Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:09:42.792Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T13:09:46.539Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:10:24.044Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T13:10:27.290Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:10:32.564Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T13:10:35.582Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:10:47.348Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T13:10:50.841Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:10:57.840Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T13:11:00.180Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:11:12.121Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T13:11:14.172Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:11:25.805Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T13:11:29.040Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:12:39.983Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:12:42.043Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:12:44.935Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:12:46.881Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:14:29.642Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T13:14:33.352Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:14:57.234Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T13:14:59.767Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:15:02.816Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T13:15:06.119Z"}
+{"level":"info","message":"GET /api/carDealer/ 200 243 - 246.545 ms","timestamp":"2025-06-19T13:15:11.913Z"}
+{"level":"info","message":"GET /api/cars/: 404 46 - 286.753 ms","timestamp":"2025-06-19T13:15:18.112Z"}
+{"level":"info","message":"GET /api/cars/: 404 46 - 295.926 ms","timestamp":"2025-06-19T13:15:25.630Z"}
+{"level":"info","message":"GET /api/cars/ 200 302 - 445.668 ms","timestamp":"2025-06-19T13:15:29.379Z"}
+{"level":"info","message":"GET /api/cars/6854017fd3ece2de7ab191f2 404 46 - 354.568 ms","timestamp":"2025-06-19T13:15:43.902Z"}
+{"level":"info","message":"GET /api/cars/ 200 302 - 360.886 ms","timestamp":"2025-06-19T13:15:48.976Z"}
+{"level":"info","message":"GET /api/cars/?carDealerId=6854017fd3ece2de7ab191f2 200 302 - 484.920 ms","timestamp":"2025-06-19T13:17:03.775Z"}
+{"level":"info","message":"GET /api/cars/?carDealerId=6854017fd3ece2de7ab191f2 200 302 - 418.979 ms","timestamp":"2025-06-19T13:17:06.127Z"}
+{"level":"info","message":"GET /api/cars/?carDealerId= 200 302 - 317.806 ms","timestamp":"2025-06-19T13:17:10.038Z"}
+{"level":"info","message":"GET /api/cars/?carDealerId=6854017fd3ece2de7ab191f2 200 302 - 329.188 ms","timestamp":"2025-06-19T13:17:16.325Z"}
+{"level":"info","message":"GET /api/cars/6854017fd3ece2de7ab191f2 404 46 - 313.025 ms","timestamp":"2025-06-19T13:17:45.757Z"}
+{"level":"info","message":"GET /api/cars/: 404 46 - 254.032 ms","timestamp":"2025-06-19T13:25:10.857Z"}
+{"level":"info","message":"GET /api/cars/ 200 302 - 269.606 ms","timestamp":"2025-06-19T13:25:17.257Z"}
+{"level":"info","message":"GET /api/cars/?id=6854026cd3ece2de7ab191fe 200 302 - 332.226 ms","timestamp":"2025-06-19T13:25:54.994Z"}
+{"level":"info","message":"GET /api/cars/?carDealerId=6854017fd3ece2de7ab191f2&carDealeMakerId=685400c2d3ece2de7ab191ed&id=6854026cd3ece2de7ab191fe 200 302 - 388.124 ms","timestamp":"2025-06-19T13:26:07.504Z"}
+{"level":"info","message":"GET /api/cars/?carDealerId=6854017fd3ece2de7ab191f2&carDealeMakerId=685400c2d3ecede7ab191ed&id=6854026cd3ece2de7ab191fe 200 302 - 331.144 ms","timestamp":"2025-06-19T13:26:16.004Z"}
+{"level":"info","message":"GET /api/cars/?carDealerId=6854017fd3ece2de7ab191f2&carDealeMakerId=685400c2d3ece2de7ab191ed&id=6854026cd3ece2de7ab191fe 200 302 - 266.915 ms","timestamp":"2025-06-19T13:26:21.981Z"}
+{"level":"info","message":"GET /api/cars/?carDealerId=6854017fd3ece2de7ab191f2&carMakerId=685400c2d3ece2de7ab191ed&id=6854026cd3ece2de7ab191fe 200 302 - 283.341 ms","timestamp":"2025-06-19T13:27:01.775Z"}
+{"level":"info","message":"GET /api/cars/?carDealerId=6854017fd3ece2de7ab191f2&carMakerId=685400c2d3ec2de7ab191ed&id=6854026cd3ece2de7ab191fe 200 302 - 357.132 ms","timestamp":"2025-06-19T13:27:05.768Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:28:53.563Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T13:28:56.054Z"}
+{"level":"info","message":"GET /api/cars?carDealerId=6854017fd3ece2de7ab191f2&carMakerId=685400c2d3ec2de7ab191ed&id=6854026cd3ece2de7ab191fe 200 623 - 458.710 ms","timestamp":"2025-06-19T13:29:27.718Z"}
+{"level":"info","message":"GET /api/cars?carDealerId=6854017fd3ece2de7ab191f2&carMakerId=685400c2dec2de7ab191ed&id=6854026cd3ece2de7ab191fe 200 623 - 674.369 ms","timestamp":"2025-06-19T13:29:58.736Z"}
+{"level":"info","message":"GET /api/cars 200 623 - 729.636 ms","timestamp":"2025-06-19T13:30:12.668Z"}
+{"level":"info","message":"GET /api/carDealer/ 200 243 - 302.979 ms","timestamp":"2025-06-19T13:30:39.704Z"}
+{"level":"info","message":"GET /api/carMaker 200 182 - 353.983 ms","timestamp":"2025-06-19T13:30:46.170Z"}
+{"level":"info","message":"GET /api/cars/6854026cd3ece2de7ab191fe 404 46 - 341.905 ms","timestamp":"2025-06-19T13:31:02.129Z"}
+{"level":"info","message":"GET /api/cars/6854026cd3ece2de7ab191fe 404 46 - 308.913 ms","timestamp":"2025-06-19T13:31:11.556Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:31:30.970Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T13:31:33.787Z"}
+{"level":"info","message":"GET /api/cars/6854026cd3ece2de7ab191fe 404 46 - 2313.513 ms","timestamp":"2025-06-19T13:31:34.079Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:32:43.678Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T13:32:46.987Z"}
+{"level":"info","message":"GET /api/cars/6854026cd3ece2de7ab191fe 404 46 - 295.658 ms","timestamp":"2025-06-19T13:33:15.152Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:33:22.993Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T13:33:26.410Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:33:49.317Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:33:52.318Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:33:55.143Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T13:33:58.297Z"}
+{"level":"info","message":"GET /api/cars/6854026cd3ece2de7ab191fe 404 46 - 747.500 ms","timestamp":"2025-06-19T13:33:58.506Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:34:06.180Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T13:34:09.116Z"}
+{"level":"info","message":"GET /api/cars/6854026cd3ece2de7ab191fe 404 46 - 2822.259 ms","timestamp":"2025-06-19T13:34:09.399Z"}
+{"level":"info","message":"GET /api/cars 200 302 - 429.598 ms","timestamp":"2025-06-19T13:34:17.600Z"}
+{"level":"info","message":"GET /api/cars/6854026cd3ece2de7ab191fe 404 46 - 323.748 ms","timestamp":"2025-06-19T13:34:25.905Z"}
+{"level":"info","message":"GET /api/cars?carDealeMakerId=6854026cd3ece2de7ab191fe 200 302 - 389.905 ms","timestamp":"2025-06-19T13:34:44.644Z"}
+{"level":"info","message":"GET /api/cars/6854026cd3ece2de7ab191fe?carDealeMakerId=6854026cd3ece2de7ab191fe 404 46 - 247.171 ms","timestamp":"2025-06-19T13:35:00.492Z"}
+{"level":"info","message":"GET /api/cars/?carDealeMakerId=6854026cd3ece2de7ab191fe 200 302 - 287.322 ms","timestamp":"2025-06-19T13:35:04.018Z"}
+{"level":"info","message":"GET /api/cars/?carDealeMakerId=6854026cd3ece2de7ab191f 200 302 - 404.914 ms","timestamp":"2025-06-19T13:35:12.026Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:35:26.977Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T13:35:29.597Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:35:31.274Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T13:35:34.917Z"}
+{"level":"info","message":"GET /api/cars/6854026cd3ece2de7ab191fe?carDealeMakerId=6854026cd3ece2de7ab191fe 404 46 - 227.456 ms","timestamp":"2025-06-19T13:35:36.290Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:36:11.897Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T13:36:15.675Z"}
+{"level":"info","message":"GET /api/cars/6854026cd3ece2de7ab191fe?carDealeMakerId=6854026cd3ece2de7ab191fe 404 41 - 3460.169 ms","timestamp":"2025-06-19T13:36:15.955Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:39:54.670Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T13:39:57.879Z"}
+{"level":"info","message":"GET /api/cars/6854026cd3ece2de7ab191fe?carDealeMakerId=6854026cd3ece2de7ab191fe 404 41 - 445.902 ms","timestamp":"2025-06-19T13:40:20.308Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:40:37.571Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T13:40:40.579Z"}
+{"level":"info","message":"GET /api/cars/6854026cd3ece2de7ab191fe?carDealeMakerId=6854026cd3ece2de7ab191fe 404 44 - 2657.424 ms","timestamp":"2025-06-19T13:40:40.820Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:41:56.719Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T13:41:59.325Z"}
+{"level":"info","message":"GET /api/cars/6854026cd3ece2de7ab191fe?carDealeMakerId=6854026cd3ece2de7ab191fe 404 44 - 1181.648 ms","timestamp":"2025-06-19T13:41:59.614Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:42:14.433Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T13:42:17.858Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:43:02.618Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:43:04.700Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:43:06.171Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:43:08.072Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T13:43:11.422Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:44:04.663Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T13:44:07.422Z"}
+{"level":"info","message":"GET /api/cars/6854026cd3ece2de7ab191fe?carDealeMakerId=6854026cd3ece2de7ab191fe 404 44 - 491.347 ms","timestamp":"2025-06-19T13:44:07.730Z"}
+{"level":"info","message":"GET /api/cars/6854026cd3ece2de7ab191fe 404 44 - 456.312 ms","timestamp":"2025-06-19T13:44:11.938Z"}
+{"level":"info","message":"GET /api/cars?carDealeMakerId=6854026cd3ece2de7ab191fe 200 302 - 380.288 ms","timestamp":"2025-06-19T13:44:19.614Z"}
+{"level":"info","message":"GET /api/cars?carDealeMakerId=6854026cd3ec2de7ab191fe 200 302 - 229.759 ms","timestamp":"2025-06-19T13:44:25.515Z"}
+{"level":"info","message":"GET /api/cars/6854026cd3ece2de7ab191fe 404 44 - 414.701 ms","timestamp":"2025-06-19T13:44:34.987Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:47:55.742Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:47:58.061Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T13:48:01.142Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:48:04.641Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T13:48:07.974Z"}
+{"level":"info","message":"GET /api/cars/6854026cd3ece2de7ab191fe 404 44 - 3200.995 ms","timestamp":"2025-06-19T13:48:08.243Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:48:45.299Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:48:46.840Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T13:48:49.335Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:48:51.007Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:48:53.276Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:48:55.426Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:49:00.965Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T13:49:03.917Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:49:09.319Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:49:13.565Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T13:49:17.051Z"}
+{"level":"info","message":"GET /api/cars/6854026cd3ece2de7ab191fe 404 46 - 420.924 ms","timestamp":"2025-06-19T13:49:51.847Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:54:18.439Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:54:20.086Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T13:54:22.805Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T13:55:19.699Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T13:55:22.913Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T14:00:43.355Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T14:00:45.983Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T14:00:56.263Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T14:00:59.804Z"}
+{"level":"info","message":"GET /api/cars/6854026cd3ece2de7ab191fe 200 621 - 668.741 ms","timestamp":"2025-06-19T14:01:15.007Z"}
+{"level":"info","message":"GET /api/cars/6854026cd3ece2de7ab91fe 400 137 - 2.749 ms","timestamp":"2025-06-19T14:01:25.346Z"}
+{"level":"info","message":"GET /api/carDealer/6854017fd3ece2de7ab191f2 200 241 - 390.694 ms","timestamp":"2025-06-19T14:03:17.502Z"}
+{"level":"info","message":"GET /api/carDealer/6854017fd3ece2de7ab191f 400 143 - 1.426 ms","timestamp":"2025-06-19T14:03:18.862Z"}
+{"level":"info","message":"GET /api/carMaker/685400c2d3ece2de7ab191ed 200 180 - 412.256 ms","timestamp":"2025-06-19T14:03:27.434Z"}
+{"level":"info","message":"GET /api/carMaker/685400c2d3ece2de7ab191 400 140 - 1.390 ms","timestamp":"2025-06-19T14:03:30.168Z"}
+{"level":"info","message":"GET /api/carMaker/685400c2d3ece2de7ab191ed 200 180 - 273.600 ms","timestamp":"2025-06-19T14:03:34.091Z"}
+{"level":"info","message":"PUT /api/carMaker/685400c2d3ece2de7ab191ed 200 181 - 472.692 ms","timestamp":"2025-06-19T14:03:41.770Z"}
+{"level":"info","message":"GET /api/carMaker/685400c2d3ece2de7ab191ed 200 181 - 412.472 ms","timestamp":"2025-06-19T14:03:47.403Z"}
+{"level":"info","message":"GET /api/cars/6854026cd3ece2de7ab91fe 400 137 - 1.532 ms","timestamp":"2025-06-19T14:03:53.843Z"}
+{"level":"info","message":"GET /api/cars/6854017fd3ece2de7ab191f2 404 46 - 293.016 ms","timestamp":"2025-06-19T14:03:59.382Z"}
+{"level":"info","message":"GET /api/cars/ 200 302 - 444.416 ms","timestamp":"2025-06-19T14:04:06.961Z"}
+{"level":"info","message":"GET /api/cars/6854026cd3ece2de7ab191fe 200 622 - 514.916 ms","timestamp":"2025-06-19T14:04:11.572Z"}
+{"level":"info","message":"GET /api/cars/6854026cd3ece2de7ab191f 400 137 - 1.296 ms","timestamp":"2025-06-19T14:04:17.553Z"}
+{"level":"info","message":"GET /api/cars/6854026cd3ece2de7ab191fe 200 622 - 699.104 ms","timestamp":"2025-06-19T14:04:20.379Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T14:04:51.081Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T14:04:53.972Z"}
+{"level":"info","message":"GET /api/carDealer/6854017fd3ece2de7ab191f 400 143 - 6.664 ms","timestamp":"2025-06-19T14:06:34.133Z"}
+{"level":"info","message":"GET /api/carDealer/ 200 243 - 208.148 ms","timestamp":"2025-06-19T14:06:38.157Z"}
+{"level":"info","message":"POST /api/cars 201 298 - 898.594 ms","timestamp":"2025-06-19T14:07:17.334Z"}
+{"level":"info","message":"POST /api/cars 201 301 - 658.246 ms","timestamp":"2025-06-19T14:07:26.699Z"}
+{"level":"info","message":"POST /api/cars 201 300 - 812.886 ms","timestamp":"2025-06-19T14:07:31.967Z"}
+{"level":"info","message":"POST /api/cars 201 303 - 998.759 ms","timestamp":"2025-06-19T14:07:41.896Z"}
+{"level":"info","message":"POST /api/carMaker 201 179 - 264.079 ms","timestamp":"2025-06-19T14:07:51.899Z"}
+{"level":"info","message":"POST /api/carDealer 201 193 - 386.290 ms","timestamp":"2025-06-19T14:08:08.729Z"}
+{"level":"info","message":"POST /api/cars 201 303 - 892.407 ms","timestamp":"2025-06-19T14:09:20.587Z"}
+{"level":"info","message":"GET /api/cars/6854026cd3ece2de7ab191fe 200 622 - 419.744 ms","timestamp":"2025-06-19T14:09:34.153Z"}
+{"level":"info","message":"GET /api/cars 200 1692 - 400.342 ms","timestamp":"2025-06-19T14:09:37.202Z"}
+{"level":"info","message":"GET /api/cars/68541a1053887452add085f4 200 577 - 546.485 ms","timestamp":"2025-06-19T14:09:55.633Z"}
+{"level":"info","message":"GET /api/cars 200 1692 - 237.207 ms","timestamp":"2025-06-19T14:10:02.089Z"}
+{"level":"info","message":"GET /api/carDealer/ 200 413 - 400.147 ms","timestamp":"2025-06-19T14:10:27.378Z"}
+{"level":"info","message":"POST /api/cars 201 324 - 913.700 ms","timestamp":"2025-06-19T14:11:12.635Z"}
+{"level":"info","message":"POST /api/cars 201 299 - 735.452 ms","timestamp":"2025-06-19T14:11:25.977Z"}
+{"level":"info","message":"POST /api/cars 201 298 - 743.297 ms","timestamp":"2025-06-19T14:11:30.778Z"}
+{"level":"info","message":"POST /api/cars 201 298 - 1006.221 ms","timestamp":"2025-06-19T14:11:35.482Z"}
+{"level":"info","message":"GET /api/carDealer/ 200 413 - 376.498 ms","timestamp":"2025-06-19T14:12:36.090Z"}
+{"level":"info","message":"GET /api/carDealer/685419c853887452add085f0 200 193 - 250.058 ms","timestamp":"2025-06-19T14:12:44.312Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T14:13:12.377Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T14:13:15.411Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T14:13:29.481Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T14:13:31.948Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T14:13:37.416Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T14:13:40.210Z"}
+{"level":"info","message":"GET /api/carDealer/dealer/ 400 126 - 6.195 ms","timestamp":"2025-06-19T14:14:16.202Z"}
+{"level":"info","message":"GET /api/carDealer/ 200 413 - 218.498 ms","timestamp":"2025-06-19T14:14:21.626Z"}
+{"level":"info","message":"GET /api/carDealer/dealer/6854017fd3ece2de7ab191f2 404 184 - 3.158 ms","timestamp":"2025-06-19T14:14:28.661Z"}
+{"level":"info","message":"GET /api/carDealer/6854017fd3ece2de7ab191f2 200 241 - 208.609 ms","timestamp":"2025-06-19T14:15:06.377Z"}
+{"level":"info","message":"GET /api/cars/ 200 2819 - 672.765 ms","timestamp":"2025-06-19T14:15:12.464Z"}
+{"level":"info","message":"GET /api/cars/6854017fd3ece2de7ab191f2 404 46 - 203.612 ms","timestamp":"2025-06-19T14:15:13.265Z"}
+{"level":"info","message":"GET /api/cars//maker/6854017fd3ece2de7ab191f2 404 179 - 0.875 ms","timestamp":"2025-06-19T14:16:03.489Z"}
+{"level":"info","message":"GET /api/cars/maker/6854017fd3ece2de7ab191f2 404 56 - 327.026 ms","timestamp":"2025-06-19T14:16:18.196Z"}
+{"level":"info","message":"GET /api/carMaker/maker/685419b753887452add085ee 404 182 - 7.933 ms","timestamp":"2025-06-19T14:17:04.953Z"}
+{"level":"info","message":"GET /api/carDealer/dealer/ 400 126 - 1.689 ms","timestamp":"2025-06-19T14:17:53.114Z"}
+{"level":"info","message":"GET /api/carDealer/dealer/685419c853887452add085f0 404 184 - 0.477 ms","timestamp":"2025-06-19T14:18:06.812Z"}
+{"level":"info","message":"GET /api/cars//maker/6854017fd3ece2de7ab191f2 404 179 - 0.566 ms","timestamp":"2025-06-19T14:18:25.183Z"}
+{"level":"info","message":"GET /api/cars/dealer/6853f587dc416f555ba5d4c3 404 57 - 306.596 ms","timestamp":"2025-06-19T14:19:28.168Z"}
+{"level":"info","message":"GET /api/cars/dealer/6853f587dc416f555ba5d4c3 404 57 - 385.788 ms","timestamp":"2025-06-19T14:21:41.698Z"}
+{"level":"info","message":"GET /api/cars/maker/6853f587dc416f555ba5d4c3 404 56 - 227.007 ms","timestamp":"2025-06-19T14:21:51.276Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T14:22:14.448Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T14:22:17.847Z"}
+{"level":"info","message":"GET /api/cars/dealer/6853f587dc416f555ba5d4c3 200 26 - 279.039 ms","timestamp":"2025-06-19T14:22:20.205Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T14:25:03.931Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T14:25:07.216Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T14:25:22.946Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T14:25:26.153Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T14:25:30.548Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T14:25:33.218Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T14:25:40.270Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T14:25:43.772Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T14:25:50.724Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T14:25:54.520Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T14:26:39.957Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T14:26:43.568Z"}
+{"level":"error","message":"Error:","timestamp":"2025-06-19T14:28:46.286Z"}
+{"level":"info","message":"POST /api/carDealer 500 51 - 13.983 ms","timestamp":"2025-06-19T14:28:46.288Z"}
+{"level":"info","message":"POST /api/carDealer 201 193 - 376.387 ms","timestamp":"2025-06-19T14:28:51.982Z"}
+{"level":"info","message":"GET /api/carDealer/dealer 400 126 - 7.119 ms","timestamp":"2025-06-19T14:29:03.481Z"}
+{"level":"info","message":"GET /api/carDealer/ 200 583 - 224.074 ms","timestamp":"2025-06-19T14:29:06.413Z"}
+{"level":"info","message":"GET /api/carDealer/6854017fd3ece2de7ab191f2 200 241 - 332.228 ms","timestamp":"2025-06-19T14:29:13.790Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T14:30:33.504Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T14:30:36.324Z"}
+{"level":"info","message":"GET /api/carDealer/6854017fd3ece2de7ab191f2 200 241 - 394.069 ms","timestamp":"2025-06-19T14:31:52.436Z"}
+{"level":"info","message":"GET /api/carMaker/maker/685419b753887452add085ee 404 182 - 9.839 ms","timestamp":"2025-06-19T14:32:07.052Z"}
+{"level":"info","message":"GET /api/carMaker/685419b753887452add085ee 200 179 - 326.947 ms","timestamp":"2025-06-19T14:32:10.356Z"}
+{"level":"info","message":"GET /api/cars/dealer/6853f587dc416f555ba5d4c3 404 57 - 344.856 ms","timestamp":"2025-06-19T14:32:26.438Z"}
+{"level":"info","message":"GET /api/cars/6853f587dc416f555ba5d4c3 404 46 - 330.866 ms","timestamp":"2025-06-19T14:32:32.070Z"}
+{"level":"info","message":"GET /api/cars/6854017fd3ece2de7ab191f2 404 46 - 468.298 ms","timestamp":"2025-06-19T14:32:37.807Z"}
+{"level":"info","message":"GET /api/cars/68541a9753887452add0860d 200 570 - 824.117 ms","timestamp":"2025-06-19T14:32:50.426Z"}
+{"level":"info","message":"GET /api/cars/dealer/ 400 120 - 3.212 ms","timestamp":"2025-06-19T14:34:33.552Z"}
+{"level":"info","message":"GET /api/cars/dealer/68541a9753887452add0860d 404 57 - 231.093 ms","timestamp":"2025-06-19T14:34:51.089Z"}
+{"level":"info","message":"GET /api/cars/dealer/68541a9753887452add0860d 404 57 - 388.650 ms","timestamp":"2025-06-19T14:34:56.861Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T14:38:05.448Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T14:38:07.359Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T14:38:11.525Z"}
+{"level":"info","message":"GET /api/cars/ 200 2819 - 2890.734 ms","timestamp":"2025-06-19T14:38:11.926Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T14:38:41.955Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T14:38:45.110Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T14:38:48.865Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T14:38:53.067Z"}
+{"level":"info","message":"GET /api/cars/ 200 2819 - 3695.191 ms","timestamp":"2025-06-19T14:38:53.391Z"}
+{"level":"info","message":"GET /api/carDealer/dealer/68541ea364ae1e9a7848c07c 404 184 - 3.489 ms","timestamp":"2025-06-19T14:38:57.833Z"}
+{"level":"info","message":"GET /api/carDealer/dealer/68541ea364ae1e9a7848c07c 404 184 - 1.715 ms","timestamp":"2025-06-19T14:38:58.924Z"}
+{"level":"info","message":"GET /api/carDealer/dealer/ 400 126 - 4.276 ms","timestamp":"2025-06-19T14:39:04.325Z"}
+{"level":"info","message":"GET /api/carDealer/dealesfsr/ 400 129 - 1.847 ms","timestamp":"2025-06-19T14:39:12.929Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-19T14:39:29.821Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-19T14:39:33.133Z"}
+{"level":"info","message":"GET /favicon.ico 404 150 - 3.739 ms","timestamp":"2025-06-20T13:23:41.397Z"}
+{"level":"info","message":"GET /favicon.ico 404 150 - 0.825 ms","timestamp":"2025-06-20T13:24:36.115Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-20T13:33:00.231Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-20T13:33:03.292Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-20T13:33:19.443Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-20T13:33:21.855Z"}
+{"level":"info","message":"GET / 200 29 - 2.783 ms","timestamp":"2025-06-20T14:06:58.437Z"}
+{"level":"info","message":"GET /favicon.ico 404 150 - 0.990 ms","timestamp":"2025-06-20T14:06:58.449Z"}
+{"level":"info","message":"GET /favicon.ico 404 150 - 0.532 ms","timestamp":"2025-06-20T14:07:31.175Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-20T22:15:17.187Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-20T22:15:19.815Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-20T23:26:14.968Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-20T23:26:22.864Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-20T23:26:25.585Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-20T23:26:39.303Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-20T23:26:41.774Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-20T23:26:58.551Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-20T23:27:01.295Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-23T04:33:00.971Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-23T04:33:03.727Z"}

@@ -9,7 +9,7 @@ import carDealerRoute from "./routes/carDealerRoutes";
 import carMakeRoute from "./routes/carMakeRoutes";
 import carRote from "./routes/carRotes";
 import { OK, INTERNAL_SERVER_ERROR } from './utils/http-status';
-import { connectDB } from './config/database';
+import { connectDB } from './config/dataBase';
 
 
 // Load environment variables

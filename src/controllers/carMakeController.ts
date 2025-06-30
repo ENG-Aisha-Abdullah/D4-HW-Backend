@@ -34,7 +34,7 @@ export const createCarMaker = async (req: Request, res: Response): Promise<void>
   }
 };
 
-export const getAllCarDealer = async (_req: Request, res: Response): Promise<void> => {
+export const getAllCarMakers = async (_req: Request, res: Response): Promise<void> => {
   try {
     const carMakes = await carMake.find();
     res.status(OK).json({
@@ -100,7 +100,7 @@ export const updateCarMake = async (req: Request, res: Response): Promise<void> 
   }
 };
 
-export const deleteCarDealer = async (req: Request, res: Response): Promise<void> => {
+export const deleteCarMake = async (req: Request, res: Response): Promise<void> => {
   try {
     const deleted = await carMake.findByIdAndDelete(req.params.id);
     if (!deleted) {

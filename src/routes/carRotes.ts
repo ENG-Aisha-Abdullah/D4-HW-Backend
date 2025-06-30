@@ -11,14 +11,21 @@ import {
 
 const router = Router();
 
+// Create & get all cars
 router.route('/')
   .post(createCar)
-  .get(getAllCars)
+  .get(getAllCars);
+
+// Get cars by carDealerId
+router.get('/dealer/:carDealerId', getCarsByCarDealerId);
+
+// Get cars by carMakerId
+router.get('/maker/:carMakerId', getCarsByCarMakerId);
+
+// Get, update, delete by car _id
 router.route('/:id')
-  .get(getCarsByCarDealerId)
-  .get(getCarsByCarMakerId)
   .get(getCarById)
   .put(updateCar)
   .delete(deleteItem);
 
-export default router; 
+export default router;

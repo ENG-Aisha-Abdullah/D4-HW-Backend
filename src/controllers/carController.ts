@@ -49,7 +49,7 @@ export const createCar = async (req: Request, res: Response): Promise<void> => {
     if (!findCarDealer) {
       res.status(NOT_FOUND).json({
         success: false,
-        error: 'CarDealer not found',
+        error: 'CarDealer not found', 
       });
       return;
     }
@@ -102,56 +102,64 @@ export const getAllCars = async (req: Request, res: Response): Promise<void> => 
 export const getCarsByCarDealerId = async (req: Request, res: Response): Promise<void> => {
   try {
     const { carDealerId } = req.params;
-    const carbyDealerId = await car.findById(carDealerId);
-         if (!carbyDealerId) {
+
+    const cars = await car.find({ carDealerId }).populate("carDealerId carMakerId");
+
+    if (!cars || cars.length === 0) {
       res.status(NOT_FOUND).json({
         success: false,
-        error: 'CarMaker not found',
+        error: 'No cars found for this dealer',
       });
       return;
     }
+
     res.status(OK).json({
       success: true,
-      data: carbyDealerId,
+      data: cars,
     });
   } catch (error) {
     res.status(BAD_REQUEST).json({
       success: false,
-      error: error instanceof Error ? error.message : 'Failed to findu car',
+      error: error instanceof Error ? error.message : 'Failed to get cars by dealer',
     });
   }
 };
+
 
 // 4- Get all cars by carMakerId
 export const getCarsByCarMakerId = async (req: Request, res: Response): Promise<void> => {
   try {
-    const { carDealeMakerId } = req.params;
-    const carbyDealerId = await car.findById(carDealeMakerId);
-             if (!carbyDealerId) {
+    const { carMakerId } = req.params;
+
+    const cars = await car.find({ carMakerId }).populate("carDealerId carMakerId");
+
+    if (!cars || cars.length === 0) {
       res.status(NOT_FOUND).json({
         success: false,
-        error: 'CarMaker not found',
+        error: 'No cars found for this maker',
       });
       return;
     }
+
     res.status(OK).json({
       success: true,
-      data: carbyDealerId,
+      data: cars,
     });
   } catch (error) {
     res.status(BAD_REQUEST).json({
       success: false,
-      error: error instanceof Error ? error.message : 'Failed to findu car',
+      error: error instanceof Error ? error.message : 'Failed to get cars by maker',
     });
   }
 };
 
+
 // 5- Get car by id
 export const getCarById = async (req: Request, res: Response): Promise<void> => {
   try {
-    const { carDealeById } = req.params;
-    const carbyDealerId = await car.findById(carDealeById);
-                 if (!carbyDealerId) {
+    const { id } = req.params;
+    const foundCar = await car.findById(id).populate("carDealerId carMakerId");
+                 if (!foundCar) {
       res.status(NOT_FOUND).json({
         success: false,
         error: 'CarMaker not found',
@@ -160,7 +168,7 @@ export const getCarById = async (req: Request, res: Response): Promise<void> => 
     }
     res.status(OK).json({
       success: true,
-      data: carbyDealerId,
+      data: foundCar,
     });
   } catch (error) {
     res.status(BAD_REQUEST).json({
@@ -217,7 +225,7 @@ export const deleteItem = async (req: Request, res: Response): Promise<void> => 
     }
     res.status(OK).json({
       success: true,
-      data: {},
+      data: cars,
     });
   } catch (error) {
     res.status(BAD_REQUEST).json({
